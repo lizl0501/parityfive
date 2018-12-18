@@ -8,10 +8,12 @@
     <artifactId>parity-five</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Order</module>
         <module>common</module>
+        <module>server</module>
+        <module>provider</module>
+        <module>feign</module>
+        <module>serviceapi</module>
     </modules>
-
     <packaging>pom</packaging>
 
 
