@@ -1,6 +1,12 @@
 server:
   port: 8281
 spring:
+  rabbitmq:
+    host: 192.168.1.138
+    #5672是rabbitMq的默认端口 15672是客户端管理界面端口
+    port: 5672
+    username: shen
+    password: lei
   application:
     name: cloudribbon
 
