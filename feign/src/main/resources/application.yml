@@ -2,10 +2,10 @@ server:
   port: 8281
 spring:
   redis:
-    host: 127.0.0.1
+    host: 192.168.1.144
     port: 6379
     password:
-    timeout: 30d
+    timeout: 3600ms
     lettuce:
       pool:
         max-active: 8
@@ -13,7 +13,7 @@ spring:
         max-wait: -1ms
         min-idle: 0
   rabbitmq:
-    host: 192.168.1.133
+    host: 192.168.1.144
 
     port: 5672
     username: shen
