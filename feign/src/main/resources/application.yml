@@ -2,10 +2,10 @@ server:
   port: 8281
 spring:
   redis:
-    host: 192.168.1.144
+    host: localhost
     port: 6379
     password:
-    timeout: 3600ms
+    timeout: 36000ms
     lettuce:
       pool:
         max-active: 8
